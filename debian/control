@@ -1,0 +1,20 @@
+Source: python-taskthread
+Maintainer: Ben Carrillo <ben@futeisha.org>
+Uploaders: Micah Anderson <micah@debian.org>
+Homepage: http://hpcloud.com
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9.0.0)
+Standards-Version: 3.9.5
+
+Package: python-taskthread
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Simple thread module to repetitively perform a task.
+ Python thread module to repeat an predefined task on a thread mulitple times.
+ .
+ A TaskThread is useful when a task needs to be repeated several times on 
+ a separate thread. Normal usage of the threading.Thread class would call for
+ creation of a new thread each time the same task needs to be run. This module
+ allows for repetitive tasks to be run multiple times on the same thread by
+ having the thread wait until the task needs to be executed again.

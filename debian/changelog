@@ -1,0 +1,5 @@
+python-taskthread (1.4-1) unstable; urgency=low
+
+  * Initial package. (Closes: #754118)
+
+ -- Ben Carrillo <ben@futeisha.org>  Mon, 07 Jul 2014 11:12:14 -0500
